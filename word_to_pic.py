@@ -59,5 +59,5 @@ for a in cf.sections():
     draw_table.text(xy=(0, 0), text=text, fill='#000000', font= d_font, spacing=4)  # spacing调节机制不清楚如何计算
     
     # image.show()  # 直接显示图片
-    image.save('nnhr/'+a+'.png')  # 保存在当前路径下，格式为PNG
+    image.save(a+'.png')  # 保存在当前路径下，格式为PNG
     image.close()
