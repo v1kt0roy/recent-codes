@@ -4,7 +4,7 @@ Created on Fri Jun  4 16:30:16 2021
 
 @author: 0
 """
-
+#对数散点拟合曲线画图
 import numpy as np
 import matplotlib.pyplot as plt
  # 输入部分
